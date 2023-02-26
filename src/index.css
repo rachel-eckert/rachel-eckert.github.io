@@ -1,13 +1,80 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #1b4332;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  color: #d8f3dc;
+}
+
+a:visited {
+  color: #d8f3dc;
+}
+
+body {
+  font-family: arial, helvetica;
+}
+
+h3 {
+  font-size: 5em;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+}
+
+#section1 {
+  color: #fff;
+}
+.section {
+  height: 100vh;
+}
+
+.fp-section {
+  text-align: center;
+}
+
+html {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  max-height: calc(100vh - 100px);
+  color: #d8f3dc;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.child {
+  scroll-snap-align: start;
+}
+
+.box {
+  height: calc(100vh - 100px);
+  scroll-snap-align: start;
+
+  margin: 0;
+  padding: 50px;
+  justify-content: space-around;
+  scroll-margin-top: 0px;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
+}
+
+.me-img {
+  max-width: 800px;
+  max-height: 400px;
+  width: auto;
+  height: auto;
+  display: block;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+.nav-link:hover {
+  color: white;
+}
+
+.icons:hover {
+  color: white;
 }
